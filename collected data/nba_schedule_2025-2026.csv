@@ -1,81 +1,42 @@
 Date,Time (ET),Away Team,Home Team,Venue
-"Tue, Jan 27, 2026",7:00p,Portland Trail Blazers,Washington Wizards,Capital One Arena
-"Tue, Jan 27, 2026",7:30p,Sacramento Kings,New York Knicks,Madison Square Garden (IV)
-"Tue, Jan 27, 2026",8:00p,New Orleans Pelicans,Oklahoma City Thunder,Paycom Center
-"Tue, Jan 27, 2026",8:00p,Milwaukee Bucks,Philadelphia 76ers,Xfinity Mobile Arena
-"Tue, Jan 27, 2026",9:00p,Detroit Pistons,Denver Nuggets,Ball Arena
-"Tue, Jan 27, 2026",9:00p,Brooklyn Nets,Phoenix Suns,Mortgage Matchup Center
-"Tue, Jan 27, 2026",10:00p,Los Angeles Clippers,Utah Jazz,Delta Center
-"Wed, Jan 28, 2026",9:30p,San Antonio Spurs,Houston Rockets,Toyota Center
-"Wed, Jan 28, 2026",9:00p,Golden State Warriors,Utah Jazz,Delta Center
-"Wed, Jan 28, 2026",8:00p,Charlotte Hornets,Memphis Grizzlies,FedExForum
-"Wed, Jan 28, 2026",7:30p,New York Knicks,Toronto Raptors,Scotiabank Arena
-"Wed, Jan 28, 2026",8:30p,Minnesota Timberwolves,Dallas Mavericks,American Airlines Center
-"Wed, Jan 28, 2026",7:30p,Atlanta Hawks,Boston Celtics,TD Garden
-"Wed, Jan 28, 2026",7:00p,Chicago Bulls,Indiana Pacers,Gainbridge Fieldhouse
-"Wed, Jan 28, 2026",7:00p,Los Angeles Lakers,Cleveland Cavaliers,Rocket Arena
-"Wed, Jan 28, 2026",7:30p,Orlando Magic,Miami Heat,Kaseya Center
-"Thu, Jan 29, 2026",7:00p,Sacramento Kings,Philadelphia 76ers,Xfinity Mobile Arena
-"Thu, Jan 29, 2026",7:00p,Milwaukee Bucks,Washington Wizards,Capital One Arena
-"Thu, Jan 29, 2026",8:00p,Houston Rockets,Atlanta Hawks,State Farm Arena
-"Thu, Jan 29, 2026",8:00p,Miami Heat,Chicago Bulls,United Center
-"Thu, Jan 29, 2026",8:30p,Charlotte Hornets,Dallas Mavericks,American Airlines Center
-"Thu, Jan 29, 2026",9:00p,Brooklyn Nets,Denver Nuggets,Ball Arena
-"Thu, Jan 29, 2026",9:00p,Detroit Pistons,Phoenix Suns,Mortgage Matchup Center
-"Thu, Jan 29, 2026",9:30p,Oklahoma City Thunder,Minnesota Timberwolves,Target Center
-"Fri, Jan 30, 2026",9:00p,Los Angeles Clippers,Denver Nuggets,Ball Arena
-"Fri, Jan 30, 2026",9:30p,Brooklyn Nets,Utah Jazz,Delta Center
-"Fri, Jan 30, 2026",9:00p,Cleveland Cavaliers,Phoenix Suns,Mortgage Matchup Center
-"Fri, Jan 30, 2026",7:30p,Toronto Raptors,Orlando Magic,Kia Center
-"Fri, Jan 30, 2026",10:00p,Detroit Pistons,Golden State Warriors,Chase Center
-"Fri, Jan 30, 2026",7:30p,Memphis Grizzlies,New Orleans Pelicans,Smoothie King Center
-"Fri, Jan 30, 2026",7:30p,Sacramento Kings,Boston Celtics,TD Garden
-"Fri, Jan 30, 2026",7:00p,Los Angeles Lakers,Washington Wizards,Capital One Arena
-"Fri, Jan 30, 2026",7:30p,Portland Trail Blazers,New York Knicks,Madison Square Garden (IV)
-"Sat, Jan 31, 2026",3:00p,San Antonio Spurs,Charlotte Hornets,Spectrum Center
-"Sat, Jan 31, 2026",7:00p,Atlanta Hawks,Indiana Pacers,Gainbridge Fieldhouse
-"Sat, Jan 31, 2026",7:30p,New Orleans Pelicans,Philadelphia 76ers,Xfinity Mobile Arena
-"Sat, Jan 31, 2026",8:00p,Minnesota Timberwolves,Memphis Grizzlies,FedExForum
-"Sat, Jan 31, 2026",8:00p,Chicago Bulls,Miami Heat,Kaseya Center
-"Sat, Jan 31, 2026",8:30p,Dallas Mavericks,Houston Rockets,Toyota Center
-"Sun, Feb 1, 2026",9:30p,Oklahoma City Thunder,Denver Nuggets,Ball Arena
+"Sun, Feb 1, 2026",3:30p,Milwaukee Bucks,Boston Celtics,TD Garden
+"Sun, Feb 1, 2026",9:00p,Orlando Magic,San Antonio Spurs,Frost Bank Center
+"Sun, Feb 1, 2026",9:00p,Cleveland Cavaliers,Portland Trail Blazers,Moda Center
 "Sun, Feb 1, 2026",8:00p,Los Angeles Clippers,Phoenix Suns,Mortgage Matchup Center
 "Sun, Feb 1, 2026",7:00p,Los Angeles Lakers,New York Knicks,Madison Square Garden (IV)
-"Sun, Feb 1, 2026",6:00p,Sacramento Kings,Washington Wizards,Capital One Arena
-"Sun, Feb 1, 2026",9:00p,Cleveland Cavaliers,Portland Trail Blazers,Moda Center
+"Sun, Feb 1, 2026",9:30p,Oklahoma City Thunder,Denver Nuggets,Ball Arena
+"Sun, Feb 1, 2026",6:00p,Utah Jazz,Toronto Raptors,Scotiabank Arena
 "Sun, Feb 1, 2026",6:00p,Chicago Bulls,Miami Heat,Kaseya Center
 "Sun, Feb 1, 2026",6:00p,Brooklyn Nets,Detroit Pistons,Little Caesars Arena
-"Sun, Feb 1, 2026",4:00p,Orlando Magic,San Antonio Spurs,Frost Bank Center
-"Sun, Feb 1, 2026",3:30p,Milwaukee Bucks,Boston Celtics,TD Garden
-"Sun, Feb 1, 2026",6:00p,Utah Jazz,Toronto Raptors,Scotiabank Arena
-"Mon, Feb 2, 2026",7:00p,New Orleans Pelicans,Charlotte Hornets,Spectrum Center
+"Sun, Feb 1, 2026",6:00p,Sacramento Kings,Washington Wizards,Capital One Arena
+"Mon, Feb 2, 2026",3:00p,New Orleans Pelicans,Charlotte Hornets,Spectrum Center
 "Mon, Feb 2, 2026",7:00p,Houston Rockets,Indiana Pacers,Gainbridge Fieldhouse
 "Mon, Feb 2, 2026",7:30p,Minnesota Timberwolves,Memphis Grizzlies,FedExForum
 "Mon, Feb 2, 2026",10:00p,Philadelphia 76ers,Los Angeles Clippers,Intuit Dome
+"Tue, Feb 3, 2026",8:00p,Chicago Bulls,Milwaukee Bucks,Fiserv Forum
 "Tue, Feb 3, 2026",11:00p,Phoenix Suns,Portland Trail Blazers,Moda Center
 "Tue, Feb 3, 2026",10:00p,Philadelphia 76ers,Golden State Warriors,Chase Center
 "Tue, Feb 3, 2026",8:00p,Orlando Magic,Oklahoma City Thunder,Paycom Center
-"Tue, Feb 3, 2026",8:00p,Chicago Bulls,Milwaukee Bucks,Fiserv Forum
 "Tue, Feb 3, 2026",8:00p,Boston Celtics,Dallas Mavericks,American Airlines Center
-"Tue, Feb 3, 2026",7:00p,Utah Jazz,Indiana Pacers,Gainbridge Fieldhouse
 "Tue, Feb 3, 2026",7:30p,Los Angeles Lakers,Brooklyn Nets,Barclays Center
 "Tue, Feb 3, 2026",7:00p,New York Knicks,Washington Wizards,Capital One Arena
+"Tue, Feb 3, 2026",7:00p,Utah Jazz,Indiana Pacers,Gainbridge Fieldhouse
 "Tue, Feb 3, 2026",7:00p,Denver Nuggets,Detroit Pistons,Little Caesars Arena
 "Tue, Feb 3, 2026",7:30p,Atlanta Hawks,Miami Heat,Kaseya Center
+"Wed, Feb 4, 2026",7:00p,Denver Nuggets,New York Knicks,Madison Square Garden (IV)
+"Wed, Feb 4, 2026",7:30p,Minnesota Timberwolves,Toronto Raptors,Scotiabank Arena
+"Wed, Feb 4, 2026",8:00p,Boston Celtics,Houston Rockets,Toyota Center
+"Wed, Feb 4, 2026",8:00p,New Orleans Pelicans,Milwaukee Bucks,Fiserv Forum
+"Wed, Feb 4, 2026",9:30p,Oklahoma City Thunder,San Antonio Spurs,Frost Bank Center
 "Wed, Feb 4, 2026",10:00p,Memphis Grizzlies,Sacramento Kings,Golden 1 Center
 "Wed, Feb 4, 2026",10:30p,Cleveland Cavaliers,Los Angeles Clippers,Intuit Dome
-"Wed, Feb 4, 2026",9:30p,Oklahoma City Thunder,San Antonio Spurs,Frost Bank Center
-"Wed, Feb 4, 2026",8:00p,New Orleans Pelicans,Milwaukee Bucks,Fiserv Forum
-"Wed, Feb 4, 2026",8:00p,Boston Celtics,Houston Rockets,Toyota Center
-"Wed, Feb 4, 2026",7:30p,Minnesota Timberwolves,Toronto Raptors,Scotiabank Arena
-"Wed, Feb 4, 2026",7:00p,Denver Nuggets,New York Knicks,Madison Square Garden (IV)
-"Thu, Feb 5, 2026",10:00p,Philadelphia 76ers,Los Angeles Lakers,Crypto.com Arena
 "Thu, Feb 5, 2026",8:30p,San Antonio Spurs,Dallas Mavericks,American Airlines Center
-"Thu, Feb 5, 2026",8:00p,Charlotte Hornets,Houston Rockets,Toyota Center
 "Thu, Feb 5, 2026",10:00p,Golden State Warriors,Phoenix Suns,Mortgage Matchup Center
+"Thu, Feb 5, 2026",10:00p,Philadelphia 76ers,Los Angeles Lakers,Crypto.com Arena
+"Thu, Feb 5, 2026",8:00p,Charlotte Hornets,Houston Rockets,Toyota Center
+"Thu, Feb 5, 2026",7:00p,Washington Wizards,Detroit Pistons,Little Caesars Arena
 "Thu, Feb 5, 2026",7:30p,Utah Jazz,Atlanta Hawks,State Farm Arena
 "Thu, Feb 5, 2026",7:00p,Brooklyn Nets,Orlando Magic,Kia Center
-"Thu, Feb 5, 2026",7:00p,Washington Wizards,Detroit Pistons,Little Caesars Arena
 "Thu, Feb 5, 2026",7:30p,Chicago Bulls,Toronto Raptors,Scotiabank Arena
 "Fri, Feb 6, 2026",7:30p,Miami Heat,Boston Celtics,TD Garden
 "Fri, Feb 6, 2026",7:30p,New York Knicks,Detroit Pistons,Little Caesars Arena
@@ -83,16 +44,16 @@ Date,Time (ET),Away Team,Home Team,Venue
 "Fri, Feb 6, 2026",8:00p,New Orleans Pelicans,Minnesota Timberwolves,Target Center
 "Fri, Feb 6, 2026",10:00p,Memphis Grizzlies,Portland Trail Blazers,Moda Center
 "Fri, Feb 6, 2026",10:00p,Los Angeles Clippers,Sacramento Kings,Golden 1 Center
-"Sat, Feb 7, 2026",8:30p,Golden State Warriors,Los Angeles Lakers,Crypto.com Arena
 "Sat, Feb 7, 2026",10:00p,Cleveland Cavaliers,Sacramento Kings,Golden 1 Center
 "Sat, Feb 7, 2026",10:00p,Memphis Grizzlies,Portland Trail Blazers,Moda Center
 "Sat, Feb 7, 2026",9:00p,Philadelphia 76ers,Phoenix Suns,Mortgage Matchup Center
+"Sat, Feb 7, 2026",8:30p,Golden State Warriors,Los Angeles Lakers,Crypto.com Arena
 "Sat, Feb 7, 2026",8:00p,Denver Nuggets,Chicago Bulls,United Center
-"Sat, Feb 7, 2026",3:00p,Washington Wizards,Brooklyn Nets,Barclays Center
-"Sat, Feb 7, 2026",7:00p,Utah Jazz,Orlando Magic,Kia Center
+"Sat, Feb 7, 2026",7:30p,Charlotte Hornets,Atlanta Hawks,State Farm Arena
 "Sat, Feb 7, 2026",6:00p,Dallas Mavericks,San Antonio Spurs,Frost Bank Center
 "Sat, Feb 7, 2026",3:30p,Houston Rockets,Oklahoma City Thunder,Paycom Center
-"Sat, Feb 7, 2026",7:30p,Charlotte Hornets,Atlanta Hawks,State Farm Arena
+"Sat, Feb 7, 2026",3:00p,Washington Wizards,Brooklyn Nets,Barclays Center
+"Sat, Feb 7, 2026",7:00p,Utah Jazz,Orlando Magic,Kia Center
 "Sun, Feb 8, 2026",12:30p,New York Knicks,Boston Celtics,TD Garden
 "Sun, Feb 8, 2026",2:00p,Miami Heat,Washington Wizards,Capital One Arena
 "Sun, Feb 8, 2026",3:00p,Los Angeles Clippers,Minnesota Timberwolves,Target Center
@@ -102,176 +63,176 @@ Date,Time (ET),Away Team,Home Team,Venue
 "Mon, Feb 9, 2026",10:00p,Oklahoma City Thunder,Los Angeles Lakers,Crypto.com Arena
 "Mon, Feb 9, 2026",10:00p,Memphis Grizzlies,Golden State Warriors,Chase Center
 "Mon, Feb 9, 2026",8:00p,Sacramento Kings,New Orleans Pelicans,Smoothie King Center
-"Mon, Feb 9, 2026",7:30p,Chicago Bulls,Brooklyn Nets,Barclays Center
+"Mon, Feb 9, 2026",7:00p,Detroit Pistons,Charlotte Hornets,Spectrum Center
 "Mon, Feb 9, 2026",7:30p,Milwaukee Bucks,Orlando Magic,Kia Center
 "Mon, Feb 9, 2026",7:30p,Utah Jazz,Miami Heat,Kaseya Center
-"Mon, Feb 9, 2026",7:00p,Detroit Pistons,Charlotte Hornets,Spectrum Center
+"Mon, Feb 9, 2026",7:30p,Chicago Bulls,Brooklyn Nets,Barclays Center
 "Mon, Feb 9, 2026",8:00p,Atlanta Hawks,Minnesota Timberwolves,Target Center
 "Tue, Feb 10, 2026",7:30p,Indiana Pacers,New York Knicks,Madison Square Garden (IV)
 "Tue, Feb 10, 2026",8:00p,Los Angeles Clippers,Houston Rockets,Toyota Center
 "Tue, Feb 10, 2026",9:00p,Dallas Mavericks,Phoenix Suns,Mortgage Matchup Center
 "Tue, Feb 10, 2026",10:30p,San Antonio Spurs,Los Angeles Lakers,Crypto.com Arena
 "Wed, Feb 11, 2026",10:00p,San Antonio Spurs,Golden State Warriors,Chase Center
-"Wed, Feb 11, 2026",10:00p,Memphis Grizzlies,Denver Nuggets,Ball Arena
 "Wed, Feb 11, 2026",9:00p,Sacramento Kings,Utah Jazz,Delta Center
 "Wed, Feb 11, 2026",9:00p,Oklahoma City Thunder,Phoenix Suns,Mortgage Matchup Center
+"Wed, Feb 11, 2026",9:00p,Memphis Grizzlies,Denver Nuggets,Ball Arena
 "Wed, Feb 11, 2026",8:00p,Miami Heat,New Orleans Pelicans,Smoothie King Center
 "Wed, Feb 11, 2026",8:00p,Portland Trail Blazers,Minnesota Timberwolves,Target Center
 "Wed, Feb 11, 2026",8:00p,Los Angeles Clippers,Houston Rockets,Toyota Center
 "Wed, Feb 11, 2026",7:30p,Detroit Pistons,Toronto Raptors,Scotiabank Arena
+"Wed, Feb 11, 2026",7:30p,New York Knicks,Philadelphia 76ers,Xfinity Mobile Arena
 "Wed, Feb 11, 2026",7:30p,Indiana Pacers,Brooklyn Nets,Barclays Center
 "Wed, Feb 11, 2026",7:30p,Chicago Bulls,Boston Celtics,TD Garden
 "Wed, Feb 11, 2026",7:00p,Milwaukee Bucks,Orlando Magic,Kia Center
 "Wed, Feb 11, 2026",7:00p,Washington Wizards,Cleveland Cavaliers,Rocket Arena
 "Wed, Feb 11, 2026",7:00p,Atlanta Hawks,Charlotte Hornets,Spectrum Center
-"Wed, Feb 11, 2026",7:30p,New York Knicks,Philadelphia 76ers,Xfinity Mobile Arena
 "Thu, Feb 12, 2026",7:30p,Milwaukee Bucks,Oklahoma City Thunder,Paycom Center
 "Thu, Feb 12, 2026",9:00p,Portland Trail Blazers,Utah Jazz,Delta Center
 "Thu, Feb 12, 2026",10:00p,Dallas Mavericks,Los Angeles Lakers,Crypto.com Arena
+"Thu, Feb 19, 2026",10:00p,Orlando Magic,Sacramento Kings,Golden 1 Center
 "Thu, Feb 19, 2026",10:00p,Boston Celtics,Golden State Warriors,Chase Center
 "Thu, Feb 19, 2026",10:30p,Denver Nuggets,Los Angeles Clippers,Intuit Dome
-"Thu, Feb 19, 2026",10:00p,Orlando Magic,Sacramento Kings,Golden 1 Center
 "Thu, Feb 19, 2026",8:30p,Phoenix Suns,San Antonio Spurs,Moody Center
 "Thu, Feb 19, 2026",8:00p,Toronto Raptors,Chicago Bulls,United Center
-"Thu, Feb 19, 2026",7:00p,Indiana Pacers,Washington Wizards,Capital One Arena
 "Thu, Feb 19, 2026",7:00p,Atlanta Hawks,Philadelphia 76ers,Xfinity Mobile Arena
+"Thu, Feb 19, 2026",7:00p,Indiana Pacers,Washington Wizards,Capital One Arena
 "Thu, Feb 19, 2026",7:00p,Brooklyn Nets,Cleveland Cavaliers,Rocket Arena
 "Thu, Feb 19, 2026",7:00p,Houston Rockets,Charlotte Hornets,Spectrum Center
 "Thu, Feb 19, 2026",7:30p,Detroit Pistons,New York Knicks,Madison Square Garden (IV)
-"Fri, Feb 20, 2026",7:30p,Miami Heat,Atlanta Hawks,State Farm Arena
-"Fri, Feb 20, 2026",7:00p,Cleveland Cavaliers,Charlotte Hornets,Spectrum Center
-"Fri, Feb 20, 2026",7:00p,Utah Jazz,Memphis Grizzlies,FedExForum
-"Fri, Feb 20, 2026",7:00p,Indiana Pacers,Washington Wizards,Capital One Arena
-"Fri, Feb 20, 2026",7:30p,Dallas Mavericks,Minnesota Timberwolves,Target Center
-"Fri, Feb 20, 2026",8:00p,Milwaukee Bucks,New Orleans Pelicans,Smoothie King Center
-"Fri, Feb 20, 2026",8:00p,Brooklyn Nets,Oklahoma City Thunder,Paycom Center
-"Fri, Feb 20, 2026",10:00p,Los Angeles Clippers,Los Angeles Lakers,Crypto.com Arena
 "Fri, Feb 20, 2026",10:00p,Denver Nuggets,Portland Trail Blazers,Moda Center
-"Sat, Feb 21, 2026",8:30p,Houston Rockets,New York Knicks,Madison Square Garden (IV)
-"Sat, Feb 21, 2026",8:00p,Sacramento Kings,San Antonio Spurs,Moody Center
-"Sat, Feb 21, 2026",8:00p,Memphis Grizzlies,Miami Heat,Kaseya Center
-"Sat, Feb 21, 2026",7:00p,Philadelphia 76ers,New Orleans Pelicans,Smoothie King Center
+"Fri, Feb 20, 2026",8:00p,Brooklyn Nets,Oklahoma City Thunder,Paycom Center
+"Fri, Feb 20, 2026",8:00p,Milwaukee Bucks,New Orleans Pelicans,Smoothie King Center
+"Fri, Feb 20, 2026",7:30p,Dallas Mavericks,Minnesota Timberwolves,Target Center
+"Fri, Feb 20, 2026",10:00p,Los Angeles Clippers,Los Angeles Lakers,Crypto.com Arena
+"Fri, Feb 20, 2026",7:00p,Indiana Pacers,Washington Wizards,Capital One Arena
+"Fri, Feb 20, 2026",7:00p,Utah Jazz,Memphis Grizzlies,FedExForum
+"Fri, Feb 20, 2026",7:00p,Cleveland Cavaliers,Charlotte Hornets,Spectrum Center
+"Fri, Feb 20, 2026",7:30p,Miami Heat,Atlanta Hawks,State Farm Arena
 "Sat, Feb 21, 2026",5:00p,Orlando Magic,Phoenix Suns,Mortgage Matchup Center
+"Sat, Feb 21, 2026",7:00p,Philadelphia 76ers,New Orleans Pelicans,Smoothie King Center
 "Sat, Feb 21, 2026",8:00p,Detroit Pistons,Chicago Bulls,United Center
-"Sun, Feb 22, 2026",9:00p,Orlando Magic,Los Angeles Clippers,Intuit Dome
-"Sun, Feb 22, 2026",1:00p,Cleveland Cavaliers,Oklahoma City Thunder,Paycom Center
-"Sun, Feb 22, 2026",3:30p,Brooklyn Nets,Atlanta Hawks,State Farm Arena
-"Sun, Feb 22, 2026",3:30p,Denver Nuggets,Golden State Warriors,Chase Center
-"Sun, Feb 22, 2026",3:30p,Toronto Raptors,Milwaukee Bucks,Fiserv Forum
-"Sun, Feb 22, 2026",5:00p,Dallas Mavericks,Indiana Pacers,Gainbridge Fieldhouse
-"Sun, Feb 22, 2026",6:00p,Charlotte Hornets,Washington Wizards,Capital One Arena
+"Sat, Feb 21, 2026",8:00p,Memphis Grizzlies,Miami Heat,Kaseya Center
+"Sat, Feb 21, 2026",8:00p,Sacramento Kings,San Antonio Spurs,Moody Center
+"Sat, Feb 21, 2026",8:30p,Houston Rockets,New York Knicks,Madison Square Garden (IV)
 "Sun, Feb 22, 2026",6:30p,Boston Celtics,Los Angeles Lakers,Crypto.com Arena
-"Sun, Feb 22, 2026",7:00p,Philadelphia 76ers,Minnesota Timberwolves,Target Center
-"Sun, Feb 22, 2026",8:00p,New York Knicks,Chicago Bulls,United Center
+"Sun, Feb 22, 2026",9:00p,Orlando Magic,Los Angeles Clippers,Intuit Dome
 "Sun, Feb 22, 2026",8:00p,Portland Trail Blazers,Phoenix Suns,Mortgage Matchup Center
-"Mon, Feb 23, 2026",9:30p,Utah Jazz,Houston Rockets,Toyota Center
-"Mon, Feb 23, 2026",8:00p,Sacramento Kings,Memphis Grizzlies,FedExForum
+"Sun, Feb 22, 2026",7:00p,Philadelphia 76ers,Minnesota Timberwolves,Target Center
+"Sun, Feb 22, 2026",6:00p,Charlotte Hornets,Washington Wizards,Capital One Arena
+"Sun, Feb 22, 2026",8:00p,New York Knicks,Chicago Bulls,United Center
+"Sun, Feb 22, 2026",3:30p,Toronto Raptors,Milwaukee Bucks,Fiserv Forum
+"Sun, Feb 22, 2026",3:30p,Denver Nuggets,Golden State Warriors,Chase Center
+"Sun, Feb 22, 2026",5:00p,Dallas Mavericks,Indiana Pacers,Gainbridge Fieldhouse
+"Sun, Feb 22, 2026",3:30p,Brooklyn Nets,Atlanta Hawks,State Farm Arena
+"Sun, Feb 22, 2026",1:00p,Cleveland Cavaliers,Oklahoma City Thunder,Paycom Center
 "Mon, Feb 23, 2026",7:00p,San Antonio Spurs,Detroit Pistons,Little Caesars Arena
-"Tue, Feb 24, 2026",8:00p,Golden State Warriors,New Orleans Pelicans,Smoothie King Center
+"Mon, Feb 23, 2026",8:00p,Sacramento Kings,Memphis Grizzlies,FedExForum
+"Mon, Feb 23, 2026",9:30p,Utah Jazz,Houston Rockets,Toyota Center
+"Tue, Feb 24, 2026",10:30p,Orlando Magic,Los Angeles Lakers,Crypto.com Arena
 "Tue, Feb 24, 2026",10:00p,Minnesota Timberwolves,Portland Trail Blazers,Moda Center
 "Tue, Feb 24, 2026",9:00p,Boston Celtics,Phoenix Suns,Mortgage Matchup Center
-"Tue, Feb 24, 2026",10:30p,Orlando Magic,Los Angeles Lakers,Crypto.com Arena
+"Tue, Feb 24, 2026",8:00p,Golden State Warriors,New Orleans Pelicans,Smoothie King Center
+"Tue, Feb 24, 2026",8:00p,Charlotte Hornets,Chicago Bulls,United Center
 "Tue, Feb 24, 2026",8:00p,Miami Heat,Milwaukee Bucks,Fiserv Forum
-"Tue, Feb 24, 2026",7:00p,Philadelphia 76ers,Indiana Pacers,Gainbridge Fieldhouse
-"Tue, Feb 24, 2026",7:30p,Oklahoma City Thunder,Toronto Raptors,Scotiabank Arena
 "Tue, Feb 24, 2026",7:30p,New York Knicks,Cleveland Cavaliers,Rocket Arena
 "Tue, Feb 24, 2026",7:30p,Dallas Mavericks,Brooklyn Nets,Barclays Center
 "Tue, Feb 24, 2026",7:30p,Washington Wizards,Atlanta Hawks,State Farm Arena
-"Tue, Feb 24, 2026",8:00p,Charlotte Hornets,Chicago Bulls,United Center
+"Tue, Feb 24, 2026",7:00p,Philadelphia 76ers,Indiana Pacers,Gainbridge Fieldhouse
+"Tue, Feb 24, 2026",7:30p,Oklahoma City Thunder,Toronto Raptors,Scotiabank Arena
 "Wed, Feb 25, 2026",7:00p,Oklahoma City Thunder,Detroit Pistons,Little Caesars Arena
 "Wed, Feb 25, 2026",7:30p,Golden State Warriors,Memphis Grizzlies,FedExForum
 "Wed, Feb 25, 2026",7:30p,San Antonio Spurs,Toronto Raptors,Scotiabank Arena
 "Wed, Feb 25, 2026",8:00p,Sacramento Kings,Houston Rockets,Toyota Center
 "Wed, Feb 25, 2026",8:00p,Cleveland Cavaliers,Milwaukee Bucks,Fiserv Forum
 "Wed, Feb 25, 2026",10:00p,Boston Celtics,Denver Nuggets,Ball Arena
+"Thu, Feb 26, 2026",8:30p,Sacramento Kings,Dallas Mavericks,American Airlines Center
 "Thu, Feb 26, 2026",10:00p,Minnesota Timberwolves,Los Angeles Clippers,Intuit Dome
 "Thu, Feb 26, 2026",9:00p,New Orleans Pelicans,Utah Jazz,Delta Center
-"Thu, Feb 26, 2026",9:00p,Los Angeles Lakers,Phoenix Suns,Mortgage Matchup Center
-"Thu, Feb 26, 2026",8:30p,Sacramento Kings,Dallas Mavericks,American Airlines Center
 "Thu, Feb 26, 2026",8:00p,Portland Trail Blazers,Chicago Bulls,United Center
-"Thu, Feb 26, 2026",7:00p,Miami Heat,Philadelphia 76ers,Xfinity Mobile Arena
+"Thu, Feb 26, 2026",9:00p,Los Angeles Lakers,Phoenix Suns,Mortgage Matchup Center
 "Thu, Feb 26, 2026",7:30p,San Antonio Spurs,Brooklyn Nets,Barclays Center
 "Thu, Feb 26, 2026",7:30p,Washington Wizards,Atlanta Hawks,State Farm Arena
-"Thu, Feb 26, 2026",7:00p,Charlotte Hornets,Indiana Pacers,Gainbridge Fieldhouse
 "Thu, Feb 26, 2026",7:30p,Houston Rockets,Orlando Magic,Kia Center
+"Thu, Feb 26, 2026",7:00p,Miami Heat,Philadelphia 76ers,Xfinity Mobile Arena
+"Thu, Feb 26, 2026",7:00p,Charlotte Hornets,Indiana Pacers,Gainbridge Fieldhouse
 "Fri, Feb 27, 2026",8:30p,Memphis Grizzlies,Dallas Mavericks,American Airlines Center
-"Fri, Feb 27, 2026",7:00p,Cleveland Cavaliers,Detroit Pistons,Little Caesars Arena
-"Fri, Feb 27, 2026",7:30p,Brooklyn Nets,Boston Celtics,TD Garden
 "Fri, Feb 27, 2026",8:00p,New York Knicks,Milwaukee Bucks,Fiserv Forum
 "Fri, Feb 27, 2026",9:30p,Denver Nuggets,Oklahoma City Thunder,Paycom Center
-"Sat, Feb 28, 2026",3:00p,Houston Rockets,Miami Heat,Kaseya Center
-"Sat, Feb 28, 2026",9:30p,New Orleans Pelicans,Utah Jazz,Delta Center
-"Sat, Feb 28, 2026",8:30p,Los Angeles Lakers,Golden State Warriors,Chase Center
+"Fri, Feb 27, 2026",7:00p,Cleveland Cavaliers,Detroit Pistons,Little Caesars Arena
+"Fri, Feb 27, 2026",7:30p,Brooklyn Nets,Boston Celtics,TD Garden
 "Sat, Feb 28, 2026",1:00p,Portland Trail Blazers,Charlotte Hornets,Spectrum Center
+"Sat, Feb 28, 2026",3:00p,Houston Rockets,Miami Heat,Kaseya Center
 "Sat, Feb 28, 2026",7:00p,Toronto Raptors,Washington Wizards,Capital One Arena
-"Sun, Mar 1, 2026",1:00p,San Antonio Spurs,New York Knicks,Madison Square Garden (IV)
-"Sun, Mar 1, 2026",3:30p,Cleveland Cavaliers,Brooklyn Nets,Barclays Center
-"Sun, Mar 1, 2026",3:30p,Milwaukee Bucks,Chicago Bulls,United Center
-"Sun, Mar 1, 2026",3:30p,Minnesota Timberwolves,Denver Nuggets,Ball Arena
-"Sun, Mar 1, 2026",5:00p,Memphis Grizzlies,Indiana Pacers,Gainbridge Fieldhouse
-"Sun, Mar 1, 2026",6:00p,Portland Trail Blazers,Atlanta Hawks,State Farm Arena
-"Sun, Mar 1, 2026",6:00p,Philadelphia 76ers,Boston Celtics,TD Garden
+"Sat, Feb 28, 2026",8:30p,Los Angeles Lakers,Golden State Warriors,Chase Center
+"Sat, Feb 28, 2026",9:30p,New Orleans Pelicans,Utah Jazz,Delta Center
 "Sun, Mar 1, 2026",6:00p,Detroit Pistons,Orlando Magic,Kia Center
-"Sun, Mar 1, 2026",8:00p,Oklahoma City Thunder,Dallas Mavericks,American Airlines Center
 "Sun, Mar 1, 2026",9:00p,New Orleans Pelicans,Los Angeles Clippers,Intuit Dome
+"Sun, Mar 1, 2026",8:00p,Oklahoma City Thunder,Dallas Mavericks,American Airlines Center
 "Sun, Mar 1, 2026",9:30p,Sacramento Kings,Los Angeles Lakers,Crypto.com Arena
-"Mon, Mar 2, 2026",9:00p,Denver Nuggets,Utah Jazz,Delta Center
-"Mon, Mar 2, 2026",10:00p,Los Angeles Clippers,Golden State Warriors,Chase Center
+"Sun, Mar 1, 2026",6:00p,Philadelphia 76ers,Boston Celtics,TD Garden
+"Sun, Mar 1, 2026",3:30p,Milwaukee Bucks,Chicago Bulls,United Center
+"Sun, Mar 1, 2026",5:00p,Memphis Grizzlies,Indiana Pacers,Gainbridge Fieldhouse
+"Sun, Mar 1, 2026",3:30p,Minnesota Timberwolves,Denver Nuggets,Ball Arena
+"Sun, Mar 1, 2026",3:30p,Cleveland Cavaliers,Brooklyn Nets,Barclays Center
+"Sun, Mar 1, 2026",1:00p,San Antonio Spurs,New York Knicks,Madison Square Garden (IV)
+"Sun, Mar 1, 2026",6:00p,Portland Trail Blazers,Atlanta Hawks,State Farm Arena
 "Mon, Mar 2, 2026",7:00p,Houston Rockets,Washington Wizards,Capital One Arena
 "Mon, Mar 2, 2026",7:30p,Boston Celtics,Milwaukee Bucks,Fiserv Forum
-"Tue, Mar 3, 2026",10:30p,New Orleans Pelicans,Los Angeles Lakers,Crypto.com Arena
-"Tue, Mar 3, 2026",7:00p,Dallas Mavericks,Charlotte Hornets,Spectrum Center
-"Tue, Mar 3, 2026",7:00p,Detroit Pistons,Cleveland Cavaliers,Rocket Arena
-"Tue, Mar 3, 2026",7:00p,Washington Wizards,Orlando Magic,Kia Center
-"Tue, Mar 3, 2026",7:30p,Brooklyn Nets,Miami Heat,Kaseya Center
-"Tue, Mar 3, 2026",7:30p,New York Knicks,Toronto Raptors,Scotiabank Arena
-"Tue, Mar 3, 2026",8:00p,Oklahoma City Thunder,Chicago Bulls,United Center
+"Mon, Mar 2, 2026",9:00p,Denver Nuggets,Utah Jazz,Delta Center
+"Mon, Mar 2, 2026",10:00p,Los Angeles Clippers,Golden State Warriors,Chase Center
 "Tue, Mar 3, 2026",8:00p,Memphis Grizzlies,Minnesota Timberwolves,Target Center
+"Tue, Mar 3, 2026",10:30p,New Orleans Pelicans,Los Angeles Lakers,Crypto.com Arena
 "Tue, Mar 3, 2026",8:00p,San Antonio Spurs,Philadelphia 76ers,Xfinity Mobile Arena
 "Tue, Mar 3, 2026",11:00p,Phoenix Suns,Sacramento Kings,Golden 1 Center
-"Wed, Mar 4, 2026",10:30p,Indiana Pacers,Los Angeles Clippers,Intuit Dome
-"Wed, Mar 4, 2026",9:30p,Atlanta Hawks,Milwaukee Bucks,Fiserv Forum
-"Wed, Mar 4, 2026",8:00p,Portland Trail Blazers,Memphis Grizzlies,FedExForum
-"Wed, Mar 4, 2026",7:30p,Utah Jazz,Philadelphia 76ers,Xfinity Mobile Arena
-"Wed, Mar 4, 2026",7:30p,Charlotte Hornets,Boston Celtics,TD Garden
+"Tue, Mar 3, 2026",8:00p,Oklahoma City Thunder,Chicago Bulls,United Center
+"Tue, Mar 3, 2026",7:00p,Washington Wizards,Orlando Magic,Kia Center
+"Tue, Mar 3, 2026",7:30p,Brooklyn Nets,Miami Heat,Kaseya Center
+"Tue, Mar 3, 2026",7:00p,Dallas Mavericks,Charlotte Hornets,Spectrum Center
+"Tue, Mar 3, 2026",7:30p,New York Knicks,Toronto Raptors,Scotiabank Arena
+"Tue, Mar 3, 2026",7:00p,Detroit Pistons,Cleveland Cavaliers,Rocket Arena
 "Wed, Mar 4, 2026",7:00p,Oklahoma City Thunder,New York Knicks,Madison Square Garden (IV)
-"Thu, Mar 5, 2026",7:00p,Dallas Mavericks,Orlando Magic,Kia Center
-"Thu, Mar 5, 2026",7:00p,Utah Jazz,Washington Wizards,Capital One Arena
-"Thu, Mar 5, 2026",7:30p,Golden State Warriors,Houston Rockets,Toyota Center
-"Thu, Mar 5, 2026",7:30p,Brooklyn Nets,Miami Heat,Kaseya Center
-"Thu, Mar 5, 2026",8:00p,Toronto Raptors,Minnesota Timberwolves,Target Center
+"Wed, Mar 4, 2026",7:30p,Charlotte Hornets,Boston Celtics,TD Garden
+"Wed, Mar 4, 2026",7:30p,Utah Jazz,Philadelphia 76ers,Xfinity Mobile Arena
+"Wed, Mar 4, 2026",8:00p,Portland Trail Blazers,Memphis Grizzlies,FedExForum
+"Wed, Mar 4, 2026",9:30p,Atlanta Hawks,Milwaukee Bucks,Fiserv Forum
+"Wed, Mar 4, 2026",10:30p,Indiana Pacers,Los Angeles Clippers,Intuit Dome
 "Thu, Mar 5, 2026",8:00p,Detroit Pistons,San Antonio Spurs,Frost Bank Center
-"Thu, Mar 5, 2026",9:00p,Chicago Bulls,Phoenix Suns,Mortgage Matchup Center
-"Thu, Mar 5, 2026",10:00p,Los Angeles Lakers,Denver Nuggets,Ball Arena
 "Thu, Mar 5, 2026",10:00p,New Orleans Pelicans,Sacramento Kings,Golden 1 Center
-"Fri, Mar 6, 2026",10:30p,Indiana Pacers,Los Angeles Lakers,Crypto.com Arena
-"Fri, Mar 6, 2026",9:30p,Los Angeles Clippers,San Antonio Spurs,Frost Bank Center
-"Fri, Mar 6, 2026",9:00p,New Orleans Pelicans,Phoenix Suns,Mortgage Matchup Center
-"Fri, Mar 6, 2026",8:00p,Portland Trail Blazers,Houston Rockets,Toyota Center
-"Fri, Mar 6, 2026",7:00p,Miami Heat,Charlotte Hornets,Spectrum Center
+"Thu, Mar 5, 2026",10:00p,Los Angeles Lakers,Denver Nuggets,Ball Arena
+"Thu, Mar 5, 2026",9:00p,Chicago Bulls,Phoenix Suns,Mortgage Matchup Center
+"Thu, Mar 5, 2026",7:30p,Brooklyn Nets,Miami Heat,Kaseya Center
+"Thu, Mar 5, 2026",7:30p,Golden State Warriors,Houston Rockets,Toyota Center
+"Thu, Mar 5, 2026",7:00p,Utah Jazz,Washington Wizards,Capital One Arena
+"Thu, Mar 5, 2026",7:00p,Dallas Mavericks,Orlando Magic,Kia Center
+"Thu, Mar 5, 2026",8:00p,Toronto Raptors,Minnesota Timberwolves,Target Center
 "Fri, Mar 6, 2026",7:00p,Dallas Mavericks,Boston Celtics,TD Garden
+"Fri, Mar 6, 2026",7:00p,Miami Heat,Charlotte Hornets,Spectrum Center
+"Fri, Mar 6, 2026",8:00p,Portland Trail Blazers,Houston Rockets,Toyota Center
 "Fri, Mar 6, 2026",9:00p,New York Knicks,Denver Nuggets,Ball Arena
-"Sat, Mar 7, 2026",3:00p,Orlando Magic,Minnesota Timberwolves,Target Center
-"Sat, Mar 7, 2026",6:00p,Brooklyn Nets,Detroit Pistons,Little Caesars Arena
-"Sat, Mar 7, 2026",7:30p,Philadelphia 76ers,Atlanta Hawks,State Farm Arena
-"Sat, Mar 7, 2026",8:00p,Los Angeles Clippers,Memphis Grizzlies,FedExForum
+"Fri, Mar 6, 2026",9:00p,New Orleans Pelicans,Phoenix Suns,Mortgage Matchup Center
+"Fri, Mar 6, 2026",9:30p,Los Angeles Clippers,San Antonio Spurs,Frost Bank Center
+"Fri, Mar 6, 2026",10:30p,Indiana Pacers,Los Angeles Lakers,Crypto.com Arena
 "Sat, Mar 7, 2026",8:00p,Utah Jazz,Milwaukee Bucks,Fiserv Forum
 "Sat, Mar 7, 2026",8:30p,Golden State Warriors,Oklahoma City Thunder,Paycom Center
-"Sun, Mar 8, 2026",8:00p,Orlando Magic,Milwaukee Bucks,Fiserv Forum
-"Sun, Mar 8, 2026",9:00p,Charlotte Hornets,Phoenix Suns,Mortgage Matchup Center
-"Sun, Mar 8, 2026",8:00p,Houston Rockets,San Antonio Spurs,Frost Bank Center
-"Sun, Mar 8, 2026",7:00p,Washington Wizards,New Orleans Pelicans,Smoothie King Center
-"Sun, Mar 8, 2026",9:00p,Indiana Pacers,Portland Trail Blazers,Moda Center
-"Sun, Mar 8, 2026",6:00p,Detroit Pistons,Miami Heat,Kaseya Center
-"Sun, Mar 8, 2026",3:30p,New York Knicks,Los Angeles Lakers,Crypto.com Arena
+"Sat, Mar 7, 2026",8:00p,Los Angeles Clippers,Memphis Grizzlies,FedExForum
+"Sat, Mar 7, 2026",6:00p,Brooklyn Nets,Detroit Pistons,Little Caesars Arena
+"Sat, Mar 7, 2026",3:00p,Orlando Magic,Minnesota Timberwolves,Target Center
+"Sat, Mar 7, 2026",7:30p,Philadelphia 76ers,Atlanta Hawks,State Farm Arena
 "Sun, Mar 8, 2026",1:00p,Boston Celtics,Cleveland Cavaliers,Rocket Arena
+"Sun, Mar 8, 2026",3:30p,New York Knicks,Los Angeles Lakers,Crypto.com Arena
+"Sun, Mar 8, 2026",6:00p,Detroit Pistons,Miami Heat,Kaseya Center
 "Sun, Mar 8, 2026",6:00p,Dallas Mavericks,Toronto Raptors,Scotiabank Arena
+"Sun, Mar 8, 2026",7:00p,Washington Wizards,New Orleans Pelicans,Smoothie King Center
+"Sun, Mar 8, 2026",8:00p,Orlando Magic,Milwaukee Bucks,Fiserv Forum
+"Sun, Mar 8, 2026",8:00p,Houston Rockets,San Antonio Spurs,Frost Bank Center
+"Sun, Mar 8, 2026",9:00p,Charlotte Hornets,Phoenix Suns,Mortgage Matchup Center
+"Sun, Mar 8, 2026",9:00p,Indiana Pacers,Portland Trail Blazers,Moda Center
 "Sun, Mar 8, 2026",9:00p,Chicago Bulls,Sacramento Kings,Golden 1 Center
 "Mon, Mar 9, 2026",10:00p,New York Knicks,Los Angeles Clippers,Intuit Dome
 "Mon, Mar 9, 2026",9:00p,Golden State Warriors,Utah Jazz,Delta Center
+"Mon, Mar 9, 2026",7:30p,Denver Nuggets,Oklahoma City Thunder,Paycom Center
 "Mon, Mar 9, 2026",7:00p,Philadelphia 76ers,Cleveland Cavaliers,Rocket Arena
 "Mon, Mar 9, 2026",7:30p,Memphis Grizzlies,Brooklyn Nets,Barclays Center
-"Mon, Mar 9, 2026",7:30p,Denver Nuggets,Oklahoma City Thunder,Paycom Center
 "Tue, Mar 10, 2026",7:00p,Memphis Grizzlies,Philadelphia 76ers,Xfinity Mobile Arena
 "Tue, Mar 10, 2026",7:30p,Detroit Pistons,Brooklyn Nets,Barclays Center
 "Tue, Mar 10, 2026",7:30p,Washington Wizards,Miami Heat,Kaseya Center
@@ -283,9 +244,9 @@ Date,Time (ET),Away Team,Home Team,Venue
 "Tue, Mar 10, 2026",10:00p,Charlotte Hornets,Portland Trail Blazers,Moda Center
 "Tue, Mar 10, 2026",10:00p,Indiana Pacers,Sacramento Kings,Golden 1 Center
 "Tue, Mar 10, 2026",11:00p,Minnesota Timberwolves,Los Angeles Lakers,Crypto.com Arena
-"Wed, Mar 11, 2026",10:30p,Minnesota Timberwolves,Los Angeles Clippers,Intuit Dome
 "Wed, Mar 11, 2026",10:00p,Charlotte Hornets,Sacramento Kings,Golden 1 Center
 "Wed, Mar 11, 2026",10:00p,Houston Rockets,Denver Nuggets,Ball Arena
+"Wed, Mar 11, 2026",10:30p,Minnesota Timberwolves,Los Angeles Clippers,Intuit Dome
 "Wed, Mar 11, 2026",8:00p,Toronto Raptors,New Orleans Pelicans,Smoothie King Center
 "Wed, Mar 11, 2026",7:30p,Cleveland Cavaliers,Orlando Magic,Kia Center
 "Wed, Mar 11, 2026",9:00p,New York Knicks,Utah Jazz,Delta Center
@@ -294,95 +255,96 @@ Date,Time (ET),Away Team,Home Team,Venue
 "Thu, Mar 12, 2026",7:00p,Washington Wizards,Orlando Magic,Kia Center
 "Thu, Mar 12, 2026",7:30p,Brooklyn Nets,Atlanta Hawks,State Farm Arena
 "Thu, Mar 12, 2026",7:30p,Milwaukee Bucks,Miami Heat,Kaseya Center
+"Thu, Mar 12, 2026",8:00p,Dallas Mavericks,Memphis Grizzlies,FedExForum
 "Thu, Mar 12, 2026",9:00p,Denver Nuggets,San Antonio Spurs,Frost Bank Center
 "Thu, Mar 12, 2026",9:30p,Boston Celtics,Oklahoma City Thunder,Paycom Center
 "Thu, Mar 12, 2026",10:30p,Chicago Bulls,Los Angeles Lakers,Crypto.com Arena
-"Fri, Mar 13, 2026",10:00p,Minnesota Timberwolves,Golden State Warriors,Chase Center
-"Fri, Mar 13, 2026",10:00p,Utah Jazz,Portland Trail Blazers,Moda Center
-"Fri, Mar 13, 2026",8:00p,New Orleans Pelicans,Houston Rockets,Toyota Center
 "Fri, Mar 13, 2026",10:30p,Chicago Bulls,Los Angeles Clippers,Intuit Dome
+"Fri, Mar 13, 2026",10:00p,Utah Jazz,Portland Trail Blazers,Moda Center
+"Fri, Mar 13, 2026",10:00p,Minnesota Timberwolves,Golden State Warriors,Chase Center
+"Fri, Mar 13, 2026",8:00p,New Orleans Pelicans,Houston Rockets,Toyota Center
 "Fri, Mar 13, 2026",7:30p,New York Knicks,Indiana Pacers,Gainbridge Fieldhouse
 "Fri, Mar 13, 2026",7:30p,Memphis Grizzlies,Detroit Pistons,Little Caesars Arena
 "Fri, Mar 13, 2026",7:30p,Cleveland Cavaliers,Dallas Mavericks,American Airlines Center
 "Fri, Mar 13, 2026",7:30p,Phoenix Suns,Toronto Raptors,Scotiabank Arena
-"Sat, Mar 14, 2026",8:30p,Denver Nuggets,Los Angeles Lakers,Crypto.com Arena
-"Sat, Mar 14, 2026",8:00p,Charlotte Hornets,San Antonio Spurs,Frost Bank Center
-"Sat, Mar 14, 2026",8:00p,Orlando Magic,Miami Heat,Kaseya Center
-"Sat, Mar 14, 2026",10:30p,Sacramento Kings,Los Angeles Clippers,Intuit Dome
-"Sat, Mar 14, 2026",3:00p,Milwaukee Bucks,Atlanta Hawks,State Farm Arena
 "Sat, Mar 14, 2026",1:00p,Brooklyn Nets,Philadelphia 76ers,Xfinity Mobile Arena
+"Sat, Mar 14, 2026",3:00p,Milwaukee Bucks,Atlanta Hawks,State Farm Arena
 "Sat, Mar 14, 2026",6:00p,Washington Wizards,Boston Celtics,TD Garden
-"Sun, Mar 15, 2026",1:00p,Minnesota Timberwolves,Oklahoma City Thunder,Paycom Center
-"Sun, Mar 15, 2026",3:30p,Dallas Mavericks,Cleveland Cavaliers,Rocket Arena
-"Sun, Mar 15, 2026",3:30p,Indiana Pacers,Milwaukee Bucks,Fiserv Forum
-"Sun, Mar 15, 2026",3:30p,Detroit Pistons,Toronto Raptors,Scotiabank Arena
-"Sun, Mar 15, 2026",6:00p,Portland Trail Blazers,Philadelphia 76ers,Xfinity Mobile Arena
+"Sat, Mar 14, 2026",8:00p,Orlando Magic,Miami Heat,Kaseya Center
+"Sat, Mar 14, 2026",8:00p,Charlotte Hornets,San Antonio Spurs,Frost Bank Center
+"Sat, Mar 14, 2026",8:30p,Denver Nuggets,Los Angeles Lakers,Crypto.com Arena
+"Sat, Mar 14, 2026",10:30p,Sacramento Kings,Los Angeles Clippers,Intuit Dome
 "Sun, Mar 15, 2026",8:00p,Golden State Warriors,New York Knicks,Madison Square Garden (IV)
 "Sun, Mar 15, 2026",10:00p,Utah Jazz,Sacramento Kings,Golden 1 Center
-"Mon, Mar 16, 2026",8:00p,Dallas Mavericks,New Orleans Pelicans,Smoothie King Center
-"Mon, Mar 16, 2026",10:30p,San Antonio Spurs,Los Angeles Clippers,Intuit Dome
-"Mon, Mar 16, 2026",9:00p,Los Angeles Lakers,Houston Rockets,Toyota Center
-"Mon, Mar 16, 2026",8:00p,Memphis Grizzlies,Chicago Bulls,United Center
+"Sun, Mar 15, 2026",3:30p,Detroit Pistons,Toronto Raptors,Scotiabank Arena
+"Sun, Mar 15, 2026",6:00p,Portland Trail Blazers,Philadelphia 76ers,Xfinity Mobile Arena
+"Sun, Mar 15, 2026",3:30p,Dallas Mavericks,Cleveland Cavaliers,Rocket Arena
+"Sun, Mar 15, 2026",1:00p,Minnesota Timberwolves,Oklahoma City Thunder,Paycom Center
+"Sun, Mar 15, 2026",3:30p,Indiana Pacers,Milwaukee Bucks,Fiserv Forum
 "Mon, Mar 16, 2026",7:00p,Orlando Magic,Atlanta Hawks,State Farm Arena
-"Mon, Mar 16, 2026",7:30p,Portland Trail Blazers,Brooklyn Nets,Barclays Center
 "Mon, Mar 16, 2026",7:00p,Golden State Warriors,Washington Wizards,Capital One Arena
+"Mon, Mar 16, 2026",7:30p,Portland Trail Blazers,Brooklyn Nets,Barclays Center
 "Mon, Mar 16, 2026",8:00p,Phoenix Suns,Boston Celtics,TD Garden
-"Tue, Mar 17, 2026",7:00p,Miami Heat,Charlotte Hornets,Spectrum Center
-"Tue, Mar 17, 2026",7:00p,Oklahoma City Thunder,Orlando Magic,Kia Center
-"Tue, Mar 17, 2026",7:00p,Detroit Pistons,Washington Wizards,Capital One Arena
-"Tue, Mar 17, 2026",7:30p,Indiana Pacers,New York Knicks,Madison Square Garden (IV)
+"Mon, Mar 16, 2026",8:00p,Memphis Grizzlies,Chicago Bulls,United Center
+"Mon, Mar 16, 2026",8:00p,Dallas Mavericks,New Orleans Pelicans,Smoothie King Center
+"Mon, Mar 16, 2026",9:00p,Los Angeles Lakers,Houston Rockets,Toyota Center
+"Mon, Mar 16, 2026",10:30p,San Antonio Spurs,Los Angeles Clippers,Intuit Dome
 "Tue, Mar 17, 2026",8:00p,Cleveland Cavaliers,Milwaukee Bucks,Fiserv Forum
-"Tue, Mar 17, 2026",8:00p,Phoenix Suns,Minnesota Timberwolves,Target Center
-"Tue, Mar 17, 2026",9:00p,Philadelphia 76ers,Denver Nuggets,Ball Arena
 "Tue, Mar 17, 2026",11:00p,San Antonio Spurs,Sacramento Kings,Golden 1 Center
-"Wed, Mar 18, 2026",8:00p,Los Angeles Clippers,New Orleans Pelicans,Smoothie King Center
-"Wed, Mar 18, 2026",9:30p,Los Angeles Lakers,Houston Rockets,Toyota Center
-"Wed, Mar 18, 2026",8:30p,Atlanta Hawks,Dallas Mavericks,American Airlines Center
-"Wed, Mar 18, 2026",8:00p,Utah Jazz,Minnesota Timberwolves,Target Center
-"Wed, Mar 18, 2026",8:00p,Toronto Raptors,Chicago Bulls,United Center
-"Wed, Mar 18, 2026",7:30p,Portland Trail Blazers,Indiana Pacers,Gainbridge Fieldhouse
-"Wed, Mar 18, 2026",7:30p,Oklahoma City Thunder,Brooklyn Nets,Barclays Center
+"Tue, Mar 17, 2026",9:00p,Philadelphia 76ers,Denver Nuggets,Ball Arena
+"Tue, Mar 17, 2026",8:00p,Phoenix Suns,Minnesota Timberwolves,Target Center
+"Tue, Mar 17, 2026",7:30p,Indiana Pacers,New York Knicks,Madison Square Garden (IV)
+"Tue, Mar 17, 2026",7:00p,Detroit Pistons,Washington Wizards,Capital One Arena
+"Tue, Mar 17, 2026",7:00p,Oklahoma City Thunder,Orlando Magic,Kia Center
+"Tue, Mar 17, 2026",7:00p,Miami Heat,Charlotte Hornets,Spectrum Center
 "Wed, Mar 18, 2026",7:00p,Golden State Warriors,Boston Celtics,TD Garden
-"Wed, Mar 18, 2026",8:00p,New York Knicks,Memphis Grizzlies,FedExForum
+"Wed, Mar 18, 2026",7:30p,Oklahoma City Thunder,Brooklyn Nets,Barclays Center
+"Wed, Mar 18, 2026",7:30p,Portland Trail Blazers,Indiana Pacers,Gainbridge Fieldhouse
+"Wed, Mar 18, 2026",8:00p,Toronto Raptors,Chicago Bulls,United Center
+"Wed, Mar 18, 2026",8:00p,Denver Nuggets,Memphis Grizzlies,FedExForum
+"Wed, Mar 18, 2026",8:00p,Utah Jazz,Minnesota Timberwolves,Target Center
+"Wed, Mar 18, 2026",8:00p,Los Angeles Clippers,New Orleans Pelicans,Smoothie King Center
+"Wed, Mar 18, 2026",8:30p,Atlanta Hawks,Dallas Mavericks,American Airlines Center
+"Wed, Mar 18, 2026",9:30p,Los Angeles Lakers,Houston Rockets,Toyota Center
+"Thu, Mar 19, 2026",9:00p,Milwaukee Bucks,Utah Jazz,Delta Center
+"Thu, Mar 19, 2026",8:00p,Phoenix Suns,San Antonio Spurs,Frost Bank Center
 "Thu, Mar 19, 2026",10:00p,Philadelphia 76ers,Sacramento Kings,Golden 1 Center
-"Thu, Mar 19, 2026",7:00p,Orlando Magic,Charlotte Hornets,Spectrum Center
+"Thu, Mar 19, 2026",8:00p,Los Angeles Clippers,New Orleans Pelicans,Smoothie King Center
 "Thu, Mar 19, 2026",7:00p,Detroit Pistons,Washington Wizards,Capital One Arena
 "Thu, Mar 19, 2026",8:00p,Cleveland Cavaliers,Chicago Bulls,United Center
+"Thu, Mar 19, 2026",7:00p,Orlando Magic,Charlotte Hornets,Spectrum Center
 "Thu, Mar 19, 2026",8:00p,Los Angeles Lakers,Miami Heat,Kaseya Center
-"Thu, Mar 19, 2026",8:00p,Los Angeles Clippers,New Orleans Pelicans,Smoothie King Center
-"Thu, Mar 19, 2026",8:00p,Phoenix Suns,San Antonio Spurs,Frost Bank Center
-"Thu, Mar 19, 2026",9:00p,Milwaukee Bucks,Utah Jazz,Delta Center
-"Fri, Mar 20, 2026",9:00p,Toronto Raptors,Denver Nuggets,Ball Arena
-"Fri, Mar 20, 2026",8:00p,Portland Trail Blazers,Minnesota Timberwolves,Target Center
-"Fri, Mar 20, 2026",8:00p,Boston Celtics,Memphis Grizzlies,FedExForum
-"Fri, Mar 20, 2026",8:00p,Atlanta Hawks,Houston Rockets,Toyota Center
-"Fri, Mar 20, 2026",7:30p,Golden State Warriors,Detroit Pistons,Little Caesars Arena
 "Fri, Mar 20, 2026",7:30p,New York Knicks,Brooklyn Nets,Barclays Center
-"Sat, Mar 21, 2026",8:00p,Indiana Pacers,San Antonio Spurs,Frost Bank Center
+"Fri, Mar 20, 2026",7:30p,Golden State Warriors,Detroit Pistons,Little Caesars Arena
+"Fri, Mar 20, 2026",8:00p,Atlanta Hawks,Houston Rockets,Toyota Center
+"Fri, Mar 20, 2026",8:00p,Boston Celtics,Memphis Grizzlies,FedExForum
+"Fri, Mar 20, 2026",8:00p,Portland Trail Blazers,Minnesota Timberwolves,Target Center
+"Fri, Mar 20, 2026",9:00p,Toronto Raptors,Denver Nuggets,Ball Arena
+"Sat, Mar 21, 2026",10:00p,Milwaukee Bucks,Phoenix Suns,Mortgage Matchup Center
 "Sat, Mar 21, 2026",9:30p,Philadelphia 76ers,Utah Jazz,Delta Center
 "Sat, Mar 21, 2026",8:30p,Los Angeles Clippers,Dallas Mavericks,American Airlines Center
-"Sat, Mar 21, 2026",10:00p,Milwaukee Bucks,Phoenix Suns,Mortgage Matchup Center
-"Sat, Mar 21, 2026",8:00p,Miami Heat,Houston Rockets,Toyota Center
-"Sat, Mar 21, 2026",5:00p,Oklahoma City Thunder,Washington Wizards,Capital One Arena
-"Sat, Mar 21, 2026",7:00p,Los Angeles Lakers,Orlando Magic,Kia Center
+"Sat, Mar 21, 2026",8:00p,Golden State Warriors,Atlanta Hawks,State Farm Arena
+"Sat, Mar 21, 2026",8:00p,Indiana Pacers,San Antonio Spurs,Frost Bank Center
 "Sat, Mar 21, 2026",7:00p,Cleveland Cavaliers,New Orleans Pelicans,Smoothie King Center
 "Sat, Mar 21, 2026",7:00p,Memphis Grizzlies,Charlotte Hornets,Spectrum Center
-"Sat, Mar 21, 2026",8:00p,Golden State Warriors,Atlanta Hawks,State Farm Arena
-"Sun, Mar 22, 2026",9:00p,Toronto Raptors,Phoenix Suns,Mortgage Matchup Center
-"Sun, Mar 22, 2026",7:30p,Washington Wizards,New York Knicks,Madison Square Garden (IV)
-"Sun, Mar 22, 2026",8:00p,Minnesota Timberwolves,Boston Celtics,TD Garden
+"Sat, Mar 21, 2026",5:00p,Oklahoma City Thunder,Washington Wizards,Capital One Arena
+"Sat, Mar 21, 2026",7:00p,Los Angeles Lakers,Orlando Magic,Kia Center
+"Sat, Mar 21, 2026",8:00p,Miami Heat,Houston Rockets,Toyota Center
 "Sun, Mar 22, 2026",5:00p,Portland Trail Blazers,Denver Nuggets,Ball Arena
 "Sun, Mar 22, 2026",6:00p,Brooklyn Nets,Sacramento Kings,Golden 1 Center
+"Sun, Mar 22, 2026",7:30p,Washington Wizards,New York Knicks,Madison Square Garden (IV)
+"Sun, Mar 22, 2026",8:00p,Minnesota Timberwolves,Boston Celtics,TD Garden
+"Sun, Mar 22, 2026",9:00p,Toronto Raptors,Phoenix Suns,Mortgage Matchup Center
+"Mon, Mar 23, 2026",8:00p,Houston Rockets,Chicago Bulls,United Center
 "Mon, Mar 23, 2026",10:30p,Milwaukee Bucks,Los Angeles Clippers,Intuit Dome
-"Mon, Mar 23, 2026",9:00p,Toronto Raptors,Utah Jazz,Delta Center
 "Mon, Mar 23, 2026",10:00p,Brooklyn Nets,Portland Trail Blazers,Moda Center
 "Mon, Mar 23, 2026",9:30p,Golden State Warriors,Dallas Mavericks,American Airlines Center
-"Mon, Mar 23, 2026",8:00p,Houston Rockets,Chicago Bulls,United Center
-"Mon, Mar 23, 2026",7:00p,Memphis Grizzlies,Atlanta Hawks,State Farm Arena
-"Mon, Mar 23, 2026",7:00p,Oklahoma City Thunder,Philadelphia 76ers,Xfinity Mobile Arena
+"Mon, Mar 23, 2026",9:00p,Toronto Raptors,Utah Jazz,Delta Center
+"Mon, Mar 23, 2026",7:30p,San Antonio Spurs,Miami Heat,Kaseya Center
 "Mon, Mar 23, 2026",7:00p,Indiana Pacers,Orlando Magic,Kia Center
 "Mon, Mar 23, 2026",7:00p,Los Angeles Lakers,Detroit Pistons,Little Caesars Arena
-"Mon, Mar 23, 2026",7:30p,San Antonio Spurs,Miami Heat,Kaseya Center
+"Mon, Mar 23, 2026",7:00p,Memphis Grizzlies,Atlanta Hawks,State Farm Arena
+"Mon, Mar 23, 2026",7:00p,Oklahoma City Thunder,Philadelphia 76ers,Xfinity Mobile Arena
 "Tue, Mar 24, 2026",7:00p,Sacramento Kings,Charlotte Hornets,Spectrum Center
 "Tue, Mar 24, 2026",7:30p,New Orleans Pelicans,New York Knicks,Madison Square Garden (IV)
 "Tue, Mar 24, 2026",8:00p,Orlando Magic,Cleveland Cavaliers,Rocket Arena
@@ -393,88 +355,89 @@ Date,Time (ET),Away Team,Home Team,Venue
 "Wed, Mar 25, 2026",10:00p,Dallas Mavericks,Denver Nuggets,Ball Arena
 "Wed, Mar 25, 2026",9:30p,Houston Rockets,Minnesota Timberwolves,Target Center
 "Wed, Mar 25, 2026",9:00p,Washington Wizards,Utah Jazz,Delta Center
+"Wed, Mar 25, 2026",8:00p,San Antonio Spurs,Memphis Grizzlies,FedExForum
 "Wed, Mar 25, 2026",7:30p,Oklahoma City Thunder,Boston Celtics,TD Garden
-"Wed, Mar 25, 2026",7:30p,Miami Heat,Cleveland Cavaliers,Rocket Arena
 "Wed, Mar 25, 2026",7:00p,Chicago Bulls,Philadelphia 76ers,Xfinity Mobile Arena
 "Wed, Mar 25, 2026",7:00p,Los Angeles Lakers,Indiana Pacers,Gainbridge Fieldhouse
 "Wed, Mar 25, 2026",7:00p,Atlanta Hawks,Detroit Pistons,Little Caesars Arena
-"Wed, Mar 25, 2026",8:00p,San Antonio Spurs,Memphis Grizzlies,FedExForum
-"Thu, Mar 26, 2026",7:00p,Sacramento Kings,Orlando Magic,Kia Center
+"Wed, Mar 25, 2026",7:30p,Miami Heat,Cleveland Cavaliers,Rocket Arena
 "Thu, Mar 26, 2026",7:00p,New York Knicks,Charlotte Hornets,Spectrum Center
 "Thu, Mar 26, 2026",7:00p,New Orleans Pelicans,Detroit Pistons,Little Caesars Arena
-"Fri, Mar 27, 2026",10:00p,Washington Wizards,Golden State Warriors,Chase Center
+"Thu, Mar 26, 2026",7:00p,Sacramento Kings,Orlando Magic,Kia Center
 "Fri, Mar 27, 2026",9:00p,Utah Jazz,Denver Nuggets,Ball Arena
 "Fri, Mar 27, 2026",10:00p,Dallas Mavericks,Portland Trail Blazers,Moda Center
-"Fri, Mar 27, 2026",10:30p,Brooklyn Nets,Los Angeles Lakers,Crypto.com Arena
+"Fri, Mar 27, 2026",10:00p,Washington Wizards,Golden State Warriors,Chase Center
 "Fri, Mar 27, 2026",8:30p,New Orleans Pelicans,Toronto Raptors,Scotiabank Arena
-"Fri, Mar 27, 2026",7:30p,Atlanta Hawks,Boston Celtics,TD Garden
+"Fri, Mar 27, 2026",10:30p,Brooklyn Nets,Los Angeles Lakers,Crypto.com Arena
 "Fri, Mar 27, 2026",8:00p,Houston Rockets,Memphis Grizzlies,FedExForum
+"Fri, Mar 27, 2026",7:30p,Miami Heat,Cleveland Cavaliers,Rocket Arena
+"Fri, Mar 27, 2026",7:30p,Atlanta Hawks,Boston Celtics,TD Garden
 "Fri, Mar 27, 2026",7:00p,Los Angeles Clippers,Indiana Pacers,Gainbridge Fieldhouse
 "Fri, Mar 27, 2026",8:00p,Chicago Bulls,Oklahoma City Thunder,Paycom Center
-"Fri, Mar 27, 2026",7:30p,Miami Heat,Cleveland Cavaliers,Rocket Arena
 "Sat, Mar 28, 2026",3:00p,San Antonio Spurs,Milwaukee Bucks,Fiserv Forum
 "Sat, Mar 28, 2026",6:00p,Philadelphia 76ers,Charlotte Hornets,Spectrum Center
 "Sat, Mar 28, 2026",7:30p,Sacramento Kings,Atlanta Hawks,State Farm Arena
 "Sat, Mar 28, 2026",8:00p,Chicago Bulls,Memphis Grizzlies,FedExForum
 "Sat, Mar 28, 2026",8:00p,Detroit Pistons,Minnesota Timberwolves,Target Center
 "Sat, Mar 28, 2026",10:00p,Utah Jazz,Phoenix Suns,Mortgage Matchup Center
-"Sun, Mar 29, 2026",6:00p,Orlando Magic,Toronto Raptors,Scotiabank Arena
 "Sun, Mar 29, 2026",10:00p,Golden State Warriors,Denver Nuggets,Ball Arena
 "Sun, Mar 29, 2026",7:30p,New York Knicks,Oklahoma City Thunder,Paycom Center
 "Sun, Mar 29, 2026",7:00p,Houston Rockets,New Orleans Pelicans,Smoothie King Center
-"Sun, Mar 29, 2026",6:00p,Sacramento Kings,Brooklyn Nets,Barclays Center
+"Sun, Mar 29, 2026",6:00p,Orlando Magic,Toronto Raptors,Scotiabank Arena
+"Sun, Mar 29, 2026",6:00p,Washington Wizards,Portland Trail Blazers,Moda Center
 "Sun, Mar 29, 2026",6:00p,Boston Celtics,Charlotte Hornets,Spectrum Center
+"Sun, Mar 29, 2026",6:00p,Sacramento Kings,Brooklyn Nets,Barclays Center
 "Sun, Mar 29, 2026",5:00p,Miami Heat,Indiana Pacers,Gainbridge Fieldhouse
 "Sun, Mar 29, 2026",3:30p,Los Angeles Clippers,Milwaukee Bucks,Fiserv Forum
-"Sun, Mar 29, 2026",6:00p,Washington Wizards,Portland Trail Blazers,Moda Center
-"Mon, Mar 30, 2026",10:00p,Washington Wizards,Los Angeles Lakers,Crypto.com Arena
+"Mon, Mar 30, 2026",7:00p,Philadelphia 76ers,Miami Heat,Kaseya Center
+"Mon, Mar 30, 2026",7:30p,Boston Celtics,Atlanta Hawks,State Farm Arena
+"Mon, Mar 30, 2026",8:00p,Phoenix Suns,Memphis Grizzlies,FedExForum
+"Mon, Mar 30, 2026",8:00p,Chicago Bulls,San Antonio Spurs,Frost Bank Center
+"Mon, Mar 30, 2026",8:30p,Minnesota Timberwolves,Dallas Mavericks,American Airlines Center
 "Mon, Mar 30, 2026",9:00p,Cleveland Cavaliers,Utah Jazz,Delta Center
 "Mon, Mar 30, 2026",9:30p,Detroit Pistons,Oklahoma City Thunder,Paycom Center
-"Mon, Mar 30, 2026",8:30p,Minnesota Timberwolves,Dallas Mavericks,American Airlines Center
-"Mon, Mar 30, 2026",7:00p,Philadelphia 76ers,Miami Heat,Kaseya Center
-"Mon, Mar 30, 2026",8:00p,Phoenix Suns,Memphis Grizzlies,FedExForum
-"Mon, Mar 30, 2026",7:30p,Boston Celtics,Atlanta Hawks,State Farm Arena
-"Mon, Mar 30, 2026",8:00p,Chicago Bulls,San Antonio Spurs,Frost Bank Center
-"Tue, Mar 31, 2026",10:30p,Cleveland Cavaliers,Los Angeles Lakers,Crypto.com Arena
-"Tue, Mar 31, 2026",8:00p,New York Knicks,Houston Rockets,Toyota Center
+"Mon, Mar 30, 2026",10:00p,Washington Wizards,Los Angeles Lakers,Crypto.com Arena
 "Tue, Mar 31, 2026",11:00p,Portland Trail Blazers,Los Angeles Clippers,Intuit Dome
+"Tue, Mar 31, 2026",8:00p,Dallas Mavericks,Milwaukee Bucks,Fiserv Forum
+"Tue, Mar 31, 2026",8:00p,New York Knicks,Houston Rockets,Toyota Center
+"Tue, Mar 31, 2026",10:30p,Cleveland Cavaliers,Los Angeles Lakers,Crypto.com Arena
 "Tue, Mar 31, 2026",7:30p,Charlotte Hornets,Brooklyn Nets,Barclays Center
 "Tue, Mar 31, 2026",7:00p,Phoenix Suns,Orlando Magic,Kia Center
 "Tue, Mar 31, 2026",8:00p,Toronto Raptors,Detroit Pistons,Little Caesars Arena
-"Wed, Apr 1, 2026",10:00p,San Antonio Spurs,Golden State Warriors,Chase Center
+"Wed, Apr 1, 2026",7:00p,Philadelphia 76ers,Washington Wizards,Capital One Arena
+"Wed, Apr 1, 2026",7:30p,Boston Celtics,Miami Heat,Kaseya Center
+"Wed, Apr 1, 2026",7:30p,Atlanta Hawks,Orlando Magic,Kia Center
+"Wed, Apr 1, 2026",8:00p,Indiana Pacers,Chicago Bulls,United Center
+"Wed, Apr 1, 2026",8:00p,Milwaukee Bucks,Houston Rockets,Toyota Center
+"Wed, Apr 1, 2026",8:00p,New York Knicks,Memphis Grizzlies,FedExForum
 "Wed, Apr 1, 2026",8:00p,Sacramento Kings,Toronto Raptors,Scotiabank Arena
 "Wed, Apr 1, 2026",9:00p,Denver Nuggets,Utah Jazz,Delta Center
-"Wed, Apr 1, 2026",8:00p,Dallas Mavericks,Memphis Grizzlies,FedExForum
-"Wed, Apr 1, 2026",7:00p,Philadelphia 76ers,Washington Wizards,Capital One Arena
-"Wed, Apr 1, 2026",8:00p,Indiana Pacers,Chicago Bulls,United Center
-"Wed, Apr 1, 2026",7:30p,Atlanta Hawks,Orlando Magic,Kia Center
-"Wed, Apr 1, 2026",7:30p,Boston Celtics,Miami Heat,Kaseya Center
-"Wed, Apr 1, 2026",8:00p,Milwaukee Bucks,Houston Rockets,Toyota Center
-"Thu, Apr 2, 2026",7:00p,Phoenix Suns,Charlotte Hornets,Spectrum Center
-"Thu, Apr 2, 2026",7:00p,Minnesota Timberwolves,Detroit Pistons,Little Caesars Arena
-"Thu, Apr 2, 2026",9:30p,Los Angeles Lakers,Oklahoma City Thunder,Paycom Center
-"Thu, Apr 2, 2026",10:00p,Cleveland Cavaliers,Golden State Warriors,Chase Center
+"Wed, Apr 1, 2026",10:00p,San Antonio Spurs,Golden State Warriors,Chase Center
 "Thu, Apr 2, 2026",10:00p,New Orleans Pelicans,Portland Trail Blazers,Moda Center
+"Thu, Apr 2, 2026",10:00p,Cleveland Cavaliers,Golden State Warriors,Chase Center
 "Thu, Apr 2, 2026",10:30p,San Antonio Spurs,Los Angeles Clippers,Intuit Dome
+"Thu, Apr 2, 2026",7:00p,Minnesota Timberwolves,Detroit Pistons,Little Caesars Arena
+"Thu, Apr 2, 2026",7:00p,Phoenix Suns,Charlotte Hornets,Spectrum Center
+"Thu, Apr 2, 2026",9:30p,Los Angeles Lakers,Oklahoma City Thunder,Paycom Center
 "Fri, Apr 3, 2026",10:00p,New Orleans Pelicans,Sacramento Kings,Golden 1 Center
 "Fri, Apr 3, 2026",8:30p,Orlando Magic,Dallas Mavericks,American Airlines Center
-"Fri, Apr 3, 2026",8:00p,Boston Celtics,Milwaukee Bucks,Fiserv Forum
 "Fri, Apr 3, 2026",8:00p,Toronto Raptors,Memphis Grizzlies,FedExForum
-"Fri, Apr 3, 2026",7:30p,Chicago Bulls,New York Knicks,Madison Square Garden (IV)
+"Fri, Apr 3, 2026",8:00p,Utah Jazz,Houston Rockets,Toyota Center
+"Fri, Apr 3, 2026",8:00p,Boston Celtics,Milwaukee Bucks,Fiserv Forum
 "Fri, Apr 3, 2026",7:30p,Atlanta Hawks,Brooklyn Nets,Barclays Center
 "Fri, Apr 3, 2026",7:00p,Minnesota Timberwolves,Philadelphia 76ers,Xfinity Mobile Arena
 "Fri, Apr 3, 2026",7:00p,Indiana Pacers,Charlotte Hornets,Spectrum Center
-"Fri, Apr 3, 2026",8:00p,Utah Jazz,Houston Rockets,Toyota Center
+"Fri, Apr 3, 2026",7:30p,Chicago Bulls,New York Knicks,Madison Square Garden (IV)
 "Sat, Apr 4, 2026",3:00p,Washington Wizards,Miami Heat,Kaseya Center
 "Sat, Apr 4, 2026",3:00p,San Antonio Spurs,Denver Nuggets,Ball Arena
 "Sat, Apr 4, 2026",7:00p,Detroit Pistons,Philadelphia 76ers,Xfinity Mobile Arena
-"Sun, Apr 5, 2026",7:00p,Orlando Magic,New Orleans Pelicans,Smoothie King Center
+"Sun, Apr 5, 2026",10:00p,Houston Rockets,Golden State Warriors,Chase Center
 "Sun, Apr 5, 2026",9:00p,Los Angeles Clippers,Sacramento Kings,Golden 1 Center
 "Sun, Apr 5, 2026",7:30p,Los Angeles Lakers,Dallas Mavericks,American Airlines Center
 "Sun, Apr 5, 2026",7:00p,Utah Jazz,Oklahoma City Thunder,Paycom Center
-"Sun, Apr 5, 2026",10:00p,Houston Rockets,Golden State Warriors,Chase Center
-"Sun, Apr 5, 2026",6:00p,Indiana Pacers,Cleveland Cavaliers,Rocket Arena
+"Sun, Apr 5, 2026",7:00p,Orlando Magic,New Orleans Pelicans,Smoothie King Center
 "Sun, Apr 5, 2026",3:30p,Memphis Grizzlies,Milwaukee Bucks,Fiserv Forum
+"Sun, Apr 5, 2026",6:00p,Indiana Pacers,Cleveland Cavaliers,Rocket Arena
 "Sun, Apr 5, 2026",3:30p,Phoenix Suns,Chicago Bulls,United Center
 "Sun, Apr 5, 2026",3:30p,Washington Wizards,Brooklyn Nets,Barclays Center
 "Sun, Apr 5, 2026",3:30p,Toronto Raptors,Boston Celtics,TD Garden
