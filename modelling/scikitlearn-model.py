@@ -9,51 +9,87 @@ import warnings
 from pathlib import Path
 warnings.filterwarnings('ignore')
 
+# ============================================================
+# Teams Dictionary
+# ============================================================
+TEAMS = {
+    1610612737: "Atlanta_Hawks",
+    1610612738: "Boston_Celtics",
+    1610612751: "Brooklyn_Nets",
+    1610612766: "Charlotte_Hornets",
+    1610612741: "Chicago_Bulls",
+    1610612739: "Cleveland_Cavaliers",
+    1610612742: "Dallas_Mavericks",
+    1610612743: "Denver_Nuggets",
+    1610612765: "Detroit_Pistons",
+    1610612744: "Golden_State_Warriors",
+    1610612745: "Houston_Rockets",
+    1610612754: "Indiana_Pacers",
+    1610612746: "Los_Angeles_Clippers",
+    1610612747: "Los_Angeles_Lakers",
+    1610612763: "Memphis_Grizzlies",
+    1610612748: "Miami_Heat",
+    1610612749: "Milwaukee_Bucks",
+    1610612750: "Minnesota_Timberwolves",
+    1610612740: "New_Orleans_Pelicans",
+    1610612752: "New_York_Knicks",
+    1610612760: "Oklahoma_City_Thunder",
+    1610612753: "Orlando_Magic",
+    1610612755: "Philadelphia_76ers",
+    1610612756: "Phoenix_Suns",
+    1610612757: "Portland_Trail_Blazers",
+    1610612758: "Sacramento_Kings",
+    1610612759: "San_Antonio_Spurs",
+    1610612761: "Toronto_Raptors",
+    1610612762: "Utah_Jazz",
+    1610612764: "Washington_Wizards",
+}
+
 #to read the csv files
 def read_csv():
-    teams = {
-        1610612737: "Atlanta_Hawks",
-        1610612738: "Boston_Celtics",
-        1610612751: "Brooklyn_Nets",
-        1610612766: "Charlotte_Hornets",
-        1610612741: "Chicago_Bulls",
-        1610612739: "Cleveland_Cavaliers",
-        1610612742: "Dallas_Mavericks",
-        1610612743: "Denver_Nuggets",
-        1610612765: "Detroit_Pistons",
-        1610612744: "Golden_State_Warriors",
-        1610612745: "Houston_Rockets",
-        1610612754: "Indiana_Pacers",
-        1610612746: "Los_Angeles_Clippers",
-        1610612747: "Los_Angeles_Lakers",
-        1610612763: "Memphis_Grizzlies",
-        1610612748: "Miami_Heat",
-        1610612749: "Milwaukee_Bucks",
-        1610612750: "Minnesota_Timberwolves",
-        1610612740: "New_Orleans_Pelicans",
-        1610612752: "New_York_Knicks",
-        1610612760: "Oklahoma_City_Thunder",
-        1610612753: "Orlando_Magic",
-        1610612755: "Philadelphia_76ers",
-        1610612756: "Phoenix_Suns",
-        1610612757: "Portland_Trail_Blazers",
-        1610612758: "Sacramento_Kings",
-        1610612759: "San_Antonio_Spurs",
-        1610612761: "Toronto_Raptors",
-        1610612762: "Utah_Jazz",
-        1610612764: "Washington_Wizards",
-    }
-    
-    #season = 2025-26
-    
     folder = Path(__file__).parent.parent / "collected data" / "2025-26 season"
     all_teams = []
 
-    for team_name in teams.values():
+    for team_name in TEAMS.values():
         df = pd.read_csv(folder / f"{team_name}_2025-26.csv")
         all_teams.append(df)
-    
+
     return pd.concat(all_teams, ignore_index=True)
+
+
+def get_teams_missing_impact_players(min_mpg=25):
+    """Return {team_display_name: [player_names]} for teams with impact players confirmed out."""
+    base = Path(__file__).parent.parent / "collected data"
+    injuries_path = base / "injuries.csv"
+    minutes_path = base / "player_minutes.csv"
+
+    if not injuries_path.exists() or not minutes_path.exists():
+        return {}
+
+    injuries = pd.read_csv(injuries_path)
+    minutes = pd.read_csv(minutes_path)
+
+    # Impact players: >= min_mpg minutes per game
+    impact = minutes[minutes['MIN'] >= min_mpg].copy()
+
+    # Map TEAM_ID -> display name (space-separated)
+    team_id_to_display = {k: v.replace("_", " ") for k, v in TEAMS.items()}
+    impact['team_display'] = impact['TEAM_ID'].map(team_id_to_display)
+
+    # Filter injuries for confirmed "Out"
+    out_mask = injuries['Description'].str.startswith('Out', na=False)
+    injured_out = injuries[out_mask]
+
+    # Cross-reference by player name
+    result = {}
+    for _, row in injured_out.iterrows():
+        player = row['Player']
+        match = impact[impact['PLAYER_NAME'] == player]
+        if not match.empty:
+            team = match.iloc[0]['team_display']
+            result.setdefault(team, []).append(player)
+
+    return result
 
 
 # ============================================================

@@ -11,6 +11,7 @@ from sklearn.ensemble import (
 )
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.preprocessing import StandardScaler
+import time
 import warnings
 from pathlib import Path
 
@@ -163,9 +164,7 @@ def train_models(df):
     for m in total_models.values():
         m.fit(X_scaled, df['GAME_TOTAL'])
 
-    training_data = {'X_scaled': X_scaled, 'GAME_TOTAL': df['GAME_TOTAL'].values}
-
-    return scaler, feature_cols, spread_models, ml_models, pts_models, total_models, training_data
+    return scaler, feature_cols, spread_models, ml_models, pts_models, total_models
 
 
 # ============================================================
@@ -184,105 +183,86 @@ def build_feature_vector(team_id, opp_id, is_home, latest_avgs):
     return np.array(row).reshape(1, -1)
 
 
-def predict_game(home_id, away_id, home_spread, ou_line, home_name, away_name,
+def predict_game(home_id, away_id, home_name, away_name,
                  scaler, spread_models, ml_models, pts_models, total_models,
-                 training_data, latest_avgs):
+                 latest_avgs):
     home_vec = scaler.transform(build_feature_vector(home_id, away_id, 1, latest_avgs))
     away_vec = scaler.transform(build_feature_vector(away_id, home_id, 0, latest_avgs))
-
-    away_spread = -home_spread
-    home_sign = "+" if home_spread > 0 else ""
-    away_sign = "+" if away_spread > 0 else ""
 
     lines = []
     lines.append(f"  {away_name}  @  {home_name}")
     lines.append("")
 
-    # --- Spread ---
+    # --- Moneyline + Predicted Margin ---
     lines.append("=" * 58)
-    lines.append("  SPREAD")
-    lines.append(f"  Line: {home_name} {home_sign}{home_spread}"
-                 f"  |  {away_name} {away_sign}{away_spread}")
+    lines.append("  MONEYLINE")
     lines.append("=" * 58)
-    home_picks = 0
-    preds = []
+
+    margins = []
     for label, model in spread_models.items():
-        pred = model.predict(home_vec)[0]
-        preds.append(pred)
-        # pred is home margin: positive = home wins, negative = home loses
-        # home covers if predicted margin beats the spread
-        #   home_spread negative (favorite): must win by more than abs(spread)
-        #   home_spread positive (underdog): can lose by up to spread points
-        home_covers = pred > -home_spread
-        if home_covers:
-            home_picks += 1
-            pick = home_name
-            if pred > 0:
-                reason = f"predicted to win by {pred:.1f}"
-            else:
-                reason = f"predicted to lose by {abs(pred):.1f}, within {abs(home_spread)} pts"
-        else:
-            pick = away_name
-            if pred < 0:
-                reason = f"predicted to lose by {abs(pred):.1f}, exceeds {abs(home_spread)} pts"
-            else:
-                reason = f"predicted to win by {pred:.1f}, doesn't cover {abs(home_spread)}"
-        lines.append(f"  {label:25s}  {pick:20s}  ({reason})")
+        margin = model.predict(home_vec)[0]
+        margins.append(margin)
 
-    if home_picks >= 2:
-        rec_team = home_name
-        rec_spread = home_spread
-    else:
-        rec_team = away_name
-        rec_spread = -home_spread
-    rec_sign = "+" if rec_spread > 0 else ""
-    votes = max(home_picks, len(spread_models) - home_picks)
-    if rec_spread < 0:
-        rec_meaning = f"must win by more than {abs(rec_spread)}"
-    else:
-        rec_meaning = f"must stay within {abs(rec_spread)} pts"
-    lines.append("  " + "-" * 54)
-    lines.append(f"  >>> PLACE: {rec_team} {rec_sign}{rec_spread}"
-                 f"  ({votes}/{len(spread_models)} models agree)")
-    lines.append(f"      ({rec_meaning})")
-
-    # --- Moneyline ---
-    lines.append("")
-    lines.append("=" * 58)
-    lines.append("  MONEYLINE (Win Probability)")
-    lines.append("=" * 58)
     for label, model in ml_models.items():
         home_prob = model.predict_proba(home_vec)[0][1]
         away_prob = model.predict_proba(away_vec)[0][1]
-        lines.append(f"  {label:25s}  Home: {home_prob:.1%}  |  Away: {away_prob:.1%}")
+        lines.append(f"  {label:25s}  {home_name}: {home_prob:.1%}"
+                     f"  |  {away_name}: {away_prob:.1%}")
 
-    # --- Team Totals ---
+    avg_margin = np.mean(margins)
+    lines.append("")
+    lines.append("  Predicted Margin")
+    lines.append("  " + "-" * 54)
+    for label, margin in zip(spread_models.keys(), margins):
+        home_spread = -margin
+        away_spread = margin
+        home_sign = "+" if home_spread >= 0 else ""
+        away_sign = "+" if away_spread >= 0 else ""
+        lines.append(f"  {label:25s}  {home_name}: {home_sign}{home_spread:.1f}"
+                     f"  |  {away_name}: {away_sign}{away_spread:.1f}")
+
+    home_avg_spread = -avg_margin
+    away_avg_spread = avg_margin
+    home_avg_sign = "+" if home_avg_spread >= 0 else ""
+    away_avg_sign = "+" if away_avg_spread >= 0 else ""
+    lines.append("  " + "-" * 54)
+    lines.append(f"  {'Average':25s}  {home_name}: {home_avg_sign}{home_avg_spread:.1f}"
+                 f"  |  {away_name}: {away_avg_sign}{away_avg_spread:.1f}")
+
+    # --- Team Totals + Game Total ---
     lines.append("")
     lines.append("=" * 58)
-    lines.append("  TEAM TOTALS (Predicted Points)")
+    lines.append("  TEAM TOTALS & GAME TOTAL")
     lines.append("=" * 58)
+
+    home_pts_list = []
+    away_pts_list = []
     for label, model in pts_models.items():
         home_pts = model.predict(home_vec)[0]
         away_pts = model.predict(away_vec)[0]
-        lines.append(f"  {label:25s}  Home: {home_pts:.1f}  |  Away: {away_pts:.1f}")
+        home_pts_list.append(home_pts)
+        away_pts_list.append(away_pts)
+        lines.append(f"  {label:25s}  {home_name}: {home_pts:.1f}"
+                     f"  |  {away_name}: {away_pts:.1f}")
 
-    # --- Game Total O/U ---
+    avg_home_pts = np.mean(home_pts_list)
+    avg_away_pts = np.mean(away_pts_list)
+    lines.append("  " + "-" * 54)
+    lines.append(f"  {'Average':25s}  {home_name}: {avg_home_pts:.1f}"
+                 f"  |  {away_name}: {avg_away_pts:.1f}")
+
+    game_totals = []
     lines.append("")
-    lines.append("=" * 58)
-    lines.append("  GAME TOTAL OVER/UNDER")
-    lines.append(f"  Line: {ou_line}")
-    lines.append("=" * 58)
+    lines.append("  Predicted Game Total")
+    lines.append("  " + "-" * 54)
     for label, model in total_models.items():
-        pred = model.predict(home_vec)[0]
-        call = "OVER" if pred > ou_line else "UNDER"
-        lines.append(f"  {label:25s}  Predicted: {pred:.1f}  ->  {call}")
+        total = model.predict(home_vec)[0]
+        game_totals.append(total)
+        lines.append(f"  {label:25s}  {total:.1f}")
 
-    ou_target = (training_data['GAME_TOTAL'] > ou_line).astype(int)
-    ou_log_model = LogisticRegression(max_iter=1000, random_state=42)
-    ou_log_model.fit(training_data['X_scaled'], ou_target)
-    over_prob = ou_log_model.predict_proba(home_vec)[0][1]
-    call = "OVER" if over_prob > 0.5 else "UNDER"
-    lines.append(f"  {'Logistic Regression':25s}  Over: {over_prob:.1%}  ->  {call}")
+    avg_total = np.mean(game_totals)
+    lines.append("  " + "-" * 54)
+    lines.append(f"  >>> Predicted Total: {avg_total:.1f} pts")
 
     return "\n".join(lines)
 
@@ -291,19 +271,27 @@ def predict_game(home_id, away_id, home_spread, ou_line, home_name, away_name,
 # Top Picks — scan all games on a date, rank best bets
 # ============================================================
 def get_top_picks(games_df, scaler, spread_models, ml_models, pts_models,
-                  total_models, latest_avgs):
+                  total_models, latest_avgs, impact_out=None):
     """Analyse every game on a date and return the top 3 most confident bets.
 
     Bet types considered:
       - Moneyline: avg win-probability across 3 classifiers (pick the favoured side)
       - Spread:    avg predicted margin across 3 regressors (confidence = magnitude)
       - Game Total: avg predicted total across 3 regressors
+
+    Games where impact players (>= 25 MPG) are confirmed out are skipped.
     """
+    if impact_out is None:
+        impact_out = {}
+
     bets = []  # (confidence, description_string)
 
     for _, row in games_df.iterrows():
         home_name = row['Home Team']
         away_name = row['Away Team']
+        # Skip games where a team has 2+ impact players out
+        if len(impact_out.get(home_name, [])) >= 2 or len(impact_out.get(away_name, [])) >= 2:
+            continue
         home_id = TEAM_NAME_TO_ID.get(home_name)
         away_id = TEAM_NAME_TO_ID.get(away_name)
         if home_id is None or away_id is None:
@@ -340,16 +328,14 @@ def get_top_picks(games_df, scaler, spread_models, ml_models, pts_models,
         avg_margin = np.mean(margins)
         if avg_margin >= 0:
             sp_pick = home_name
-            sp_sign = "+"
         else:
             sp_pick = away_name
-            sp_sign = ""
         sp_conf = abs(avg_margin)
         bets.append((
             sp_conf,
             f"Spread:     {sp_pick} favoured\n"
             f"              {away_name} @ {home_name}\n"
-            f"              Avg Predicted Margin: {sp_sign}{avg_margin:.1f}"
+            f"              Avg Predicted Margin: -{sp_conf:.1f}"
         ))
 
         # --- Game total direction confidence ---
@@ -390,6 +376,74 @@ def get_top_picks(games_df, scaler, spread_models, ml_models, pts_models,
 # ============================================================
 # Schedule Parsing
 # ============================================================
+def scrape_injury_data():
+    """Scrape fresh injury report and player minutes, saving CSVs to collected data/."""
+    from nba_api.stats.endpoints import leaguedashplayerstats
+
+    base = Path(__file__).parent.parent / "collected data"
+
+    # --- Injury report from Basketball Reference ---
+    print("  Fetching injury report...")
+    injury_url = "https://www.basketball-reference.com/friv/injuries.fcgi"
+    try:
+        tables = pd.read_html(injury_url)
+        injuries_df = tables[0]
+        injuries_df.columns = [c.strip() for c in injuries_df.columns]
+        injuries_df = injuries_df.rename(columns={"Update": "Date"})
+        injuries_df = injuries_df[["Player", "Team", "Date", "Description"]]
+        injuries_df.to_csv(base / "injuries.csv", index=False)
+        print(f"  Saved {len(injuries_df)} injury entries")
+    except Exception as e:
+        print(f"  Could not fetch injury report: {e}")
+
+    # --- Player per-game minutes from nba_api ---
+    print("  Fetching player minutes...")
+    time.sleep(1)
+    try:
+        stats = leaguedashplayerstats.LeagueDashPlayerStats(
+            season="2025-26",
+            per_mode_detailed="PerGame",
+            season_type_all_star="Regular Season",
+            timeout=60,
+        )
+        stats_df = stats.get_data_frames()[0]
+        minutes_df = stats_df[["PLAYER_NAME", "TEAM_ID", "TEAM_ABBREVIATION", "GP", "MIN"]].copy()
+        minutes_df.to_csv(base / "player_minutes.csv", index=False)
+        print(f"  Saved {len(minutes_df)} player entries")
+    except Exception as e:
+        print(f"  Could not fetch player minutes: {e}")
+
+
+def get_teams_missing_impact_players(min_mpg=25):
+    """Return {team_display_name: [player_names]} for teams with impact players confirmed out."""
+    base = Path(__file__).parent.parent / "collected data"
+    injuries_path = base / "injuries.csv"
+    minutes_path = base / "player_minutes.csv"
+
+    if not injuries_path.exists() or not minutes_path.exists():
+        return {}
+
+    injuries = pd.read_csv(injuries_path)
+    minutes = pd.read_csv(minutes_path)
+
+    impact = minutes[minutes['MIN'] >= min_mpg].copy()
+    team_id_to_display = {k: v.replace("_", " ") for k, v in TEAMS.items()}
+    impact['team_display'] = impact['TEAM_ID'].map(team_id_to_display)
+
+    out_mask = injuries['Description'].str.startswith('Out', na=False)
+    injured_out = injuries[out_mask]
+
+    result = {}
+    for _, row in injured_out.iterrows():
+        player = row['Player']
+        match = impact[impact['PLAYER_NAME'] == player]
+        if not match.empty:
+            team = match.iloc[0]['team_display']
+            result.setdefault(team, []).append(player)
+
+    return result
+
+
 def load_schedule():
     path = Path(__file__).parent.parent / "collected data" / "nba_schedule_2025-2026.csv"
     sched = pd.read_csv(path)
@@ -420,7 +474,6 @@ class DashboardApp:
         self.ml_models = None
         self.pts_models = None
         self.total_models = None
-        self.training_data = None
         self.latest_avgs = None
         self.sched = None
         self.models_ready = False
@@ -458,24 +511,9 @@ class DashboardApp:
         self.games_listbox = tk.Listbox(games_frame, height=8, font=("Consolas", 10))
         self.games_listbox.pack(fill='x', **pad)
 
-        # --- Inputs: Spread + O/U ---
-        input_frame = ttk.LabelFrame(self.root, text="3. Enter Lines")
-        input_frame.pack(fill='x', **pad)
-
-        ttk.Label(input_frame, text="Home Spread:").grid(row=0, column=0, **pad, sticky='e')
-        self.spread_var = tk.StringVar()
-        self.spread_entry = ttk.Entry(input_frame, textvariable=self.spread_var, width=10)
-        self.spread_entry.grid(row=0, column=1, **pad, sticky='w')
-        ttk.Label(input_frame, text="(e.g. -1.5 or +3)").grid(row=0, column=2, **pad, sticky='w')
-
-        ttk.Label(input_frame, text="Over/Under:").grid(row=1, column=0, **pad, sticky='e')
-        self.ou_var = tk.StringVar()
-        self.ou_entry = ttk.Entry(input_frame, textvariable=self.ou_var, width=10)
-        self.ou_entry.grid(row=1, column=1, **pad, sticky='w')
-        ttk.Label(input_frame, text="(e.g. 220.5)").grid(row=1, column=2, **pad, sticky='w')
-
-        self.predict_btn = ttk.Button(input_frame, text="Predict", command=self._on_predict)
-        self.predict_btn.grid(row=0, column=3, rowspan=2, **pad)
+        # --- Predict button ---
+        self.predict_btn = ttk.Button(games_frame, text="Predict", command=self._on_predict)
+        self.predict_btn.pack(side='right', **pad)
 
         # --- Results ---
         results_frame = ttk.LabelFrame(self.root, text="Predictions")
@@ -503,8 +541,10 @@ class DashboardApp:
         df = load_and_prepare_data()
         self.latest_avgs = compute_latest_averages(df)
         (self.scaler, _, self.spread_models, self.ml_models,
-         self.pts_models, self.total_models, self.training_data) = train_models(df)
+         self.pts_models, self.total_models) = train_models(df)
         self.sched = load_schedule()
+        scrape_injury_data()
+        self.impact_out = get_teams_missing_impact_players()
         self.models_ready = True
         self.root.after(0, self._on_models_ready)
 
@@ -531,10 +571,14 @@ class DashboardApp:
             return
 
         for _, row in self.games_df.iterrows():
-            self.games_listbox.insert(
-                tk.END,
-                f"{row['Away Team']}  @  {row['Home Team']}    ({row['Time (ET)']})"
-            )
+            label = f"{row['Away Team']}  @  {row['Home Team']}    ({row['Time (ET)']})"
+            # Flag games where a team has 2+ impact players out
+            home_n = len(self.impact_out.get(row['Home Team'], []))
+            away_n = len(self.impact_out.get(row['Away Team'], []))
+            n_out = home_n + away_n
+            if home_n >= 2 or away_n >= 2:
+                label += f"  [! {n_out} impact player{'s' if n_out != 1 else ''} out]"
+            self.games_listbox.insert(tk.END, label)
 
     def _on_predict(self):
         # Validate game selection
@@ -560,25 +604,36 @@ class DashboardApp:
             messagebox.showerror("Error", "Not enough historical data for one of these teams.")
             return
 
-        # Validate spread
-        try:
-            home_spread = float(self.spread_var.get().strip())
-        except ValueError:
-            messagebox.showwarning("Input", "Enter a valid number for the home spread.")
-            return
-
-        # Validate O/U
-        try:
-            ou_line = float(self.ou_var.get().strip())
-        except ValueError:
-            messagebox.showwarning("Input", "Enter a valid number for the O/U line.")
+        # Check for impact players out (suppress only if a team has 2+)
+        home_out = self.impact_out.get(home_name, [])
+        away_out = self.impact_out.get(away_name, [])
+        if len(home_out) >= 2 or len(away_out) >= 2:
+            lines = []
+            lines.append(f"  {away_name}  @  {home_name}")
+            lines.append("")
+            lines.append("=" * 58)
+            lines.append("  PREDICTION UNAVAILABLE — IMPACT PLAYERS OUT")
+            lines.append("=" * 58)
+            lines.append("")
+            if home_out:
+                lines.append(f"  {home_name}:")
+                for p in home_out:
+                    lines.append(f"    - {p}")
+            if away_out:
+                lines.append(f"  {away_name}:")
+                for p in away_out:
+                    lines.append(f"    - {p}")
+            lines.append("")
+            lines.append("  Predictions are suppressed when impact players")
+            lines.append("  (>= 25 MPG) are confirmed out.")
+            self._show_result("\n".join(lines))
             return
 
         # Run prediction
         result = predict_game(
-            home_id, away_id, home_spread, ou_line, home_name, away_name,
+            home_id, away_id, home_name, away_name,
             self.scaler, self.spread_models, self.ml_models,
-            self.pts_models, self.total_models, self.training_data,
+            self.pts_models, self.total_models,
             self.latest_avgs,
         )
 
@@ -592,6 +647,7 @@ class DashboardApp:
         result = get_top_picks(
             self.games_df, self.scaler, self.spread_models, self.ml_models,
             self.pts_models, self.total_models, self.latest_avgs,
+            impact_out=self.impact_out,
         )
         self._show_result(result)
 
